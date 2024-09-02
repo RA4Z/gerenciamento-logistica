@@ -1,6 +1,19 @@
 .header {
-    height: 75px;
+    display: flex;
+    text-align: center;
     font-weight: bold;
+    align-items: center;
     color: white;
     background-color: #156082;
+    gap: 20px;
+    height: 75px;
+    padding-left: 20px;
+
+    img {
+        height: calc(50px + 2vmin);
+    }
+
+    h2 {
+        font-size: calc(10px + 2vmin);
+    }
 }
