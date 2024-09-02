@@ -5,6 +5,7 @@ import Main from "./pages/Main";
 import Header from "./components/Header";
 import Register from "pages/Register";
 import Maintenance from "pages/Maintenance";
+import Checklist from "pages/Checklist";
 
 export default function AppRouter() {
   return (
@@ -16,6 +17,7 @@ export default function AppRouter() {
           <Header />
           <Routes>
             <Route path="/" element={<Main />} />
+            <Route path="/checklist" element={<Checklist />} />
             <Route path="/abastecimento" element={<Register />} />
             <Route path="/manutencao" element={<Maintenance />} />
           </Routes>
