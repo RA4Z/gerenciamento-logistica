@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    padding: 30px;
+    background-color: #525D77;
+
+    img {
+        height: 82px;
+    }
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
