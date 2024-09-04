@@ -78,8 +78,8 @@ export default function Maintenance() {
       <Input value={dados.turno} onChange={e => setDados({ ...dados, turno: e.target.value })} placeholder="Turno" />
 
       <div className={styles.buttons}>
-        <Button onClick={() => navigate('/')}>Cancelar</Button>
-        <Button type="primary" onClick={() => saveFiles()}>Enviar</Button>
+        <Button danger onClick={() => navigate('/')}>Cancelar</Button>
+        <Button type="primary" ghost onClick={() => saveFiles()}>Enviar</Button>
       </div>
     </div>
   );

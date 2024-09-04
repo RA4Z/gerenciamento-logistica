@@ -79,8 +79,8 @@ export default function Maintenance() {
       <Input value={dados.localPitStop} onChange={e => setDados({ ...dados, localPitStop: e.target.value })} placeholder="Local Pit Stop" />
 
       <div className={styles.buttons}>
-        <Button onClick={() => navigate('/')}>Cancelar</Button>
-        <Button type="primary" onClick={() => saveFiles()}>Enviar</Button>
+        <Button danger onClick={() => navigate('/')}>Cancelar</Button>
+        <Button type="primary" ghost onClick={() => saveFiles()}>Enviar</Button>
       </div>
     </div>
   );
